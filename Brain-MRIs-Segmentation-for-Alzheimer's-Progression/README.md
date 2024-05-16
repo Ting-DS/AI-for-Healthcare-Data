@@ -16,15 +16,15 @@ The hippocampus is a critical structure of the human brain (and the brain of oth
 
 Humans have two hippocampi, one in each hemishpere of the brain. They are located in the medial temporal lobe of the brain. Fun fact - the word "hippocampus" is roughly translated from Greek as "horselike" because of the similarity to a seahorse, a peculiarity observed by one of the first anatomists to illustrate the structure.
 
-<img src="./readme.img/Hippocampus_and_seahorse_cropped.jpg" width=200/>
+<img src="readme_img/Hippocampus_and_seahorse_cropped.jpg" width=200/>
 
 According to [studies](https://www.sciencedirect.com/science/article/pii/S2213158219302542), the volume of the hippocampus varies in a population, depending on various parameters, within certain boundaries, and it is possible to identify a "normal" range when taking into account age, sex and brain hemisphere. 
 
-<img src="./readme.img/nomogram_fem_right.svg" width=300>
+<img src="readme_img/nomogram_fem_right.svg" width=300>
 
 There is one problem with measuring the volume of the hippocampus using MRI scans, though - namely, the process tends to be quite tedious since every slice of the 3D volume needs to be analyzed, and the shape of the structure needs to be traced. The fact that the hippocampus has a non-uniform shape only makes it more challenging. Do you think you could spot the hippocampi in this axial slice?
 
-<img src="./readme.img/mri.jpg" width=200>
+<img src="readme_img/mri.jpg" width=200>
 
 As you might have guessed by now, we are going to build a piece of AI software that could help clinicians perform this task faster and more consistently.
 
@@ -47,10 +47,6 @@ We are using the "Hippocampus" dataset from the [Medical Decathlon competition](
 ## The Programming Environment
 
 You will have two options for the environment to use throughout this project:
-
-### Udacity Workspaces
-
-[*Christa to put some canned common text about Udacity Workspaces*]
 
 ### Local Environment
 
@@ -77,7 +73,7 @@ In the 3rd section of the project we will be working with three software product
 
 ### Section 1: Curating a dataset of Brain MRIs
 
-<img src="./readme.img/Slicer.png" width=400em>
+<img src="readme_img/Slicer.png" width=400em>
 
 You will perform this section in the **Workspace 1**. This workspace has a Python virtual environment called **medai** which is set up with everything that you need to train your ML model. This workspace also has a GPU which will speed up your training process quite significantly.
 
@@ -93,7 +89,7 @@ Navigate to the directory `section1/out` to find the [README.md](section1/out/RE
 
 ### Section 2: Training a segmentation CNN
 
-<img src="./readme.img/loss.png" width=400em>
+<img src="readme_img/loss.png" width=400em>
 
 You will perform this section in the same workspace as Section 1: **Workspace 1**. This workspace has a Python virtual environment called **medai** [TODO: how are we doing this?] which is set up with everything that you need to analyze inspect the dataset and prepare it for machine learning.
 
@@ -120,13 +116,13 @@ Navigate to the directory `section2/out` to find the [README.md](section2/out/RE
 
 ### Section 3: Integrating into a clinical network
 
-<img src="./readme.img/ohif.png" width=400em>
+<img src="readme_img/ohif.png" width=400em>
 
 In this final section you will use some of the work you did for Section 2 to create an AI product that can be integrated into a clinical network and provide the auto-computed information on the hippocampal volume to the clinicians. While hospital integrations are typically handled by hospital IT staff, it will help tremendously if you can talk the same language with the people who will operate your model, and will have a feel for how clinical radiological software works. These skills will also help you debug your model in the field.
 
 You will perform this section in a different workspace than the previous two sections: **Workspace 2**. This workspace is a simpler hardware, with no GPU, which is more representative of a clinical environment. This workspace also has a few tools installed in it, which is replicates the following clinical network setup:
 
-<img src="./readme.img/network_setup.png" width=400em>
+<img src="readme_img/network_setup.png" width=400em>
 
 Specifically, we have the following software in this setup:
 
