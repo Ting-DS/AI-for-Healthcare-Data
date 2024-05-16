@@ -1,6 +1,4 @@
-# Hippocampal Volume Quantification in Alzheimer Progression: Project Instructions
-
-This file contains background information and instructions for the final project.
+# Hippocampal Volume Quantification in Alzheimer Progression: 3D Brain MRIs Segmentation
 
 ## Quantifying Alzheimer's Disease Progression Through Automated Measurement of Hippocampal Volume
 
