@@ -17,8 +17,9 @@ This repository contains 3 Healthcare Data Science projects using AI techniques 
 
  - [3D Brain MRIs Segmentation: Quantifying Hippocampus Volume for Alzheimer's Progression](https://github.com/Ting-DS/Healthcare-Data-Science-AI/tree/main/Brain-MRIs-Segmentation-for-Alzheimer's-Progression): Built an end-to-end AI system including a [U-Net segmentation](https://towardsdatascience.com/understanding-u-net-61276b10f360) model that integrates into a clinical-grade viewer and automatically measures hippocampal volumes of new patients, as their studies are committed to the clinical imaging archive. Finally integrate the model into a working clinical PACS such that it runs on every incoming study and produces a report with volume measurements. The radiology department runs a HippoCrop tool which cuts out a rectangular portion of a brain scan from every MRI image series and annotated the relevant volumes, and converted them to NIFTI format.
 
-<div align="center">
-  <img src="https://github.com/Ting-DS/Healthcare-Data-Science-AI/blob/main/Brain-MRIs-Segmentation-for-Alzheimer's-Progression/readme_img/Hippocampus_small.gif" width="80%">
+<div style="text-align:center;">
+  <img src="https://github.com/Ting-DS/Healthcare-Data-Science-AI/blob/main/Brain-MRIs-Segmentation-for-Alzheimer's-Progression/readme_img/Hippocampus_small.gif" alt="Hippocampus" 
+    style="width: 50%; margin: 0 auto;">
 </div>
 
  - [Diabetes Patient Selection for Clinical Trials using EHR data](https://github.com/Ting-DS/Healthcare-Data-Science-AI/tree/main/Clinical-Trial-Patient-Selection-using-EHR): Focus on a novel diabetes drug ready for clinical trials, administered over 5-7 days in hospitals with extensive monitoring and patient training via a mobile app. Utilize EHR data provided by a client partner to develop a deep learning regression model predicting hospitalization time, subsequently converted into a binary indicator for trial inclusion. Target patients likely requiring hospitalization for the drug's duration without significant additional costs. This project highlights the importance of precise data representation at the encounter level, involving filtering, preprocessing, and feature engineering of medical code sets, alongside analyzing and addressing biases across demographic groups in the model interpretation.
