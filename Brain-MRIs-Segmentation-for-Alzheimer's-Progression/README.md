@@ -1,4 +1,5 @@
-# Hippocampal Volume Quantification in Alzheimer Progression: 3D Brain MRIs Segmentation
+# Hippocampal Volume Quantification in Alzheimer Progression:
+# 3D Brain MRIs Segmentation
 
 ## Quantifying Alzheimer's Disease Progression Through Automated Measurement of Hippocampal Volume
 
