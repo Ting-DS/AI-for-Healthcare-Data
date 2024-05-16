@@ -3,7 +3,7 @@
 #### [Certification Link](https://www.udacity.com/certificate/e/89d29302-de3f-11ee-bf00-9b008d3aab47)
 
 <div align="center">
-  <img src="https://github.com/Ting-DS/AI-for-Healthcare-Nanodegree/blob/main/certification.png" width="80%">
+  <img src="https://github.com/Ting-DS/AI-for-Healthcare-Nanodegree/blob/main/certification.png" width=60%">
 </div>
 
 ## Introduction
